@@ -1,3 +1,4 @@
+import { Pressable } from "react-native";
 import { ImageBackground } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -20,18 +21,18 @@ const Untitled1 = ({
       top: 76,
       width: 170,
       height: 143
-    }}></ImageBackground><View style={{
-      position: "absolute",
-      left: 18,
-      top: 279,
-      height: 42,
-      width: 161,
-      backgroundColor: "#1E0F2F",
-      borderRadius: 0,
-      color: "#777777",
-      borderWidth: 1,
-      borderColor: "#FFF"
-    }}></View><Text style={{
+    }}></ImageBackground><Pressable onPress={() => navigation.navigate("Social Login")}><View style={{
+        position: "absolute",
+        left: 8,
+        top: 277,
+        height: 42,
+        width: 161,
+        backgroundColor: "#1E0F2F",
+        borderRadius: 0,
+        color: "#777777",
+        borderWidth: 1,
+        borderColor: "#FFF"
+      }}></View></Pressable><Text style={{
       position: "absolute",
       left: 69,
       top: 294,
