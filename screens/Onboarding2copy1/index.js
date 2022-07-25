@@ -4,7 +4,9 @@ import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled1 = () => {
+const Untitled1 = ({
+  navigation
+}) => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -28,7 +30,7 @@ const Untitled1 = () => {
       position: "absolute",
       width: 170,
       height: 143
-    }}></ImageBackground><Pressable onPress={{}}><View style={{
+    }}></ImageBackground><Pressable onPress={() => navigation.navigate("   Onboarding3Copy1")}><View style={{
         position: "absolute",
         left: 8,
         top: 271,
