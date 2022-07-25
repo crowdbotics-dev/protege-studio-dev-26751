@@ -8,10 +8,10 @@ const Untitled1 = ({
   navigation
 }) => {
   return <View style={{
-    backgroundColor: '#f0f0f1',
+    backgroundColor: "#FFF",
     padding: 10,
-    position: 'relative',
-    height: '100%'
+    position: "relative",
+    height: "100%"
   }}>
       <Text style={{
       left: 143,
