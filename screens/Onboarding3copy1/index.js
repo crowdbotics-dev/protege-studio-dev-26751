@@ -25,15 +25,15 @@ const Untitled1 = ({
         borderWidth: 0
       }}></View></Pressable><Text style={{
       position: "absolute",
-      left: 59.5,
+      left: 65.5,
       top: 295,
-      width: 78,
+      width: 66,
       height: 33,
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0,
       color: "#FFFFFF"
-    }}>Get Started</Text><Text style={{
+    }}>Continue</Text><Text style={{
       position: "absolute",
       left: 33.5,
       top: 13,
