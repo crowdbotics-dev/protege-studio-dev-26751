@@ -9,7 +9,9 @@ const Splash = () => {
   }}>
         <ImageBackground source="https://crowdbotics-slack-dev.s3.amazonaws.com/media/components/screens/react-native-splash_EndMTfp.png" resizeMode="contain" style={{
       flex: 1,
-      justifyContent: "center"
+      justifyContent: "center",
+      left: 0,
+      top: 1
     }}>
         </ImageBackground>
       </View>;
