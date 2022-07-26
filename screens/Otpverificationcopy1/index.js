@@ -33,7 +33,7 @@ const Untitled1 = ({
       height: 64
     }}></ImageBackground><TextInput style={{
       left: 43,
-      top: 64,
+      top: 69,
       position: "absolute",
       backgroundColor: "#f7f7f7",
       borderColor: "#cccccc",
@@ -42,7 +42,7 @@ const Untitled1 = ({
       color: "#E82D86"
     }}></TextInput><TextInput style={{
       left: 83,
-      top: 64,
+      top: 69,
       position: "absolute",
       backgroundColor: "#f7f7f7",
       borderColor: "#cccccc",
@@ -50,7 +50,7 @@ const Untitled1 = ({
       height: 30
     }}></TextInput><TextInput style={{
       left: 126,
-      top: 63,
+      top: 69,
       position: "absolute",
       backgroundColor: "#f7f7f7",
       borderColor: "#cccccc",
@@ -58,7 +58,7 @@ const Untitled1 = ({
       height: 30
     }}></TextInput><TextInput style={{
       left: 41,
-      top: 99,
+      top: 104,
       position: "absolute",
       backgroundColor: "#f7f7f7",
       borderColor: "#cccccc",
@@ -93,7 +93,7 @@ const Untitled1 = ({
       color: "#000"
     }}>Digital Marketing</Text><View style={{
       left: 83,
-      top: 98,
+      top: 104,
       position: "absolute",
       height: 30,
       width: 28,
@@ -102,7 +102,7 @@ const Untitled1 = ({
       color: "#777777"
     }}></View><View style={{
       left: 126,
-      top: 97,
+      top: 104,
       position: "absolute",
       height: 30,
       width: 28,
@@ -153,7 +153,17 @@ const Untitled1 = ({
       backgroundColor: "#E82D86",
       borderRadius: 0,
       color: "#777777"
-    }}></View></View>;
+    }}></View><Text style={{
+      left: 10,
+      top: 53,
+      position: "absolute",
+      width: 53,
+      height: 16,
+      lineHeight: 14,
+      fontSize: 9,
+      borderRadius: 0,
+      color: "#000"
+    }}>Categories</Text></View>;
 };
 
 export default Untitled1;
