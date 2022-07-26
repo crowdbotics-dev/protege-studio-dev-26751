@@ -37,8 +37,8 @@ const Untitled1 = ({
       position: "absolute",
       backgroundColor: "#f7f7f7",
       borderColor: "#cccccc",
-      width: 25,
-      height: 29,
+      width: 28,
+      height: 30,
       color: "#E82D86"
     }}></TextInput><TextInput style={{
       left: 83,
@@ -57,7 +57,7 @@ const Untitled1 = ({
       width: 28,
       height: 30
     }}></TextInput><TextInput style={{
-      left: 41,
+      left: 43,
       top: 104,
       position: "absolute",
       backgroundColor: "#f7f7f7",
