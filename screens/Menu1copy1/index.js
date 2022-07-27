@@ -104,8 +104,8 @@ eos et accusamus et iusto odio dignissimos ducimus qui t vero eos et accusamus e
       color: "#000"
     }}>Categories</Text><View style={{
       position: "absolute",
-      left: 58.5,
-      top: 8,
+      left: 118,
+      top: 107,
       width: 80,
       height: 80,
       backgroundColor: "#E4E4E4",
